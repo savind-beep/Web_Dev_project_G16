@@ -1,0 +1,37 @@
+﻿================================================================
+MEMBER CONTRIBUTION: 42379 - Wathsilu, KAI
+Main Area: Styling, UI Design & Article View
+================================================================
+
+What was done:
+- Wrote all of assets/css/style.css (the custom stylesheet):
+  * Color theme and CSS variables (NSBM green palette)
+  * Navbar custom styles
+  * Article card hover effects and animations
+  * Trending article hero styles
+  * Mindscape wall card designs
+  * GIF picker popup styling
+  * Admin panel table and tab styles
+  * Profile page avatar grid
+  * Pagination button styles
+  * Preloader animation
+  * Mobile responsive adjustments
+  * Offcanvas side nav styles
+  * Micro animations and transitions
+- Built view_article.php (the full article reading page):
+  * Full article layout with large image
+  * Author info and date display
+  * Category badge & views counter display
+  * Like and bookmark buttons
+  * Comments section layout
+  * Related articles sidebar
+  * Restricted article message
+  * Student edit/delete button for own articles
+  * Admin control buttons (restrict, delete)
+- Frontend client scripting (assets/js/main.js)
+- Responsive layout design across screen sizes
+
+Files in this folder:
+- view_article.php
+- style.css (and assets/css/style.css)
+- main.js (and assets/js/main.js)
