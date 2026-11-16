@@ -1,0 +1,28 @@
+﻿================================================================
+MEMBER CONTRIBUTION: 42369 - Jayathunga, MADAI
+Main Area: Mindscape Wall & GIF Feature
+================================================================
+
+What was done:
+- Built mindscape.php from scratch:
+  * Thought brick post feed (newest first)
+  * Text post form
+  * GIF picker button and modal popup
+  * Live GIF search using Tenor API
+  * Post cards showing author avatar, name, timestamp, content
+  * GIF display in posts
+  * Infinite feel scroll layout
+- Built api_gif_search.php:
+  * Receives search query from frontend
+  * Calls Tenor GIF API with the API key
+  * Returns JSON results back to the page
+- Integrated the fetch() JavaScript calls for GIF search:
+  * Search as you type with debounce
+  * Trending GIFs shown by default (no search)
+  * GIF grid display in popup
+  * Click to select GIF and attach to post
+- Handled gif_url saving in mindscape_thoughts table
+
+Files in this folder:
+- mindscape.php
+- api_gif_search.php
