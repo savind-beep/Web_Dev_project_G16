@@ -1,0 +1,28 @@
+﻿================================================================
+MEMBER CONTRIBUTION: 42162 - Subasitha, MHV
+Main Area: Student Features & Profile
+================================================================
+
+What was done:
+- Built profile.php:
+  * Display user info (name, email, join date)
+  * Avatar selection with preset icon options
+  * Password change form with old password verification
+  * Avatar image display and update
+- Built bookmarks.php:
+  * Shows all articles the user saved
+  * Remove bookmark option
+  * Empty state message when no bookmarks
+- Built my_submissions.php:
+  * Shows all articles submitted by the logged in student
+  * Status badges (approved, restricted, rejected)
+  * Edit and delete buttons for each article
+  * Restricted article warning display
+- Added article like/unlike functionality on view_article.php
+- Implemented bookmark toggle (save/unsave) on articles
+- Handled student delete own article feature
+
+Files in this folder:
+- profile.php
+- bookmarks.php
+- my_submissions.php
