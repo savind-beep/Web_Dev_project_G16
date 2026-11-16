@@ -1,0 +1,29 @@
+﻿================================================================
+MEMBER CONTRIBUTION: 42118 - Perera, HAKR
+Main Area: Server & Hosting, Admin Panel
+================================================================
+
+What was done:
+- Set up the live hosting environment and domain configuration
+- Wrote the .htaccess file for URL redirects and security
+- Built the full admin control panel (admin.php):
+  * Dashboard with site statistics
+  * Article management (view, delete, restrict articles)
+  * Restricted stories tab for moderation
+  * User account management (change roles, delete users)
+  * Mindscape moderation (delete wall posts)
+  * Write story feature for admin
+  * Category management
+  * Comment management
+- Handled the article restrict/unrestrict system
+- Set up the deployment package and server file structure
+- Wrote setup.php for automated database installation on server
+- Tested and fixed server-side bugs and ensured live functionality
+
+Files in this folder:
+- .htaccess
+- admin.php
+- setup.php
+- deploy.zip
+- run-local.bat
+- .env.example
