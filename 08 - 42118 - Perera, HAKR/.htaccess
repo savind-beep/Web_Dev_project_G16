@@ -1,0 +1,14 @@
+# ========================================================
+# N Magazine - Apache Server Configuration (.htaccess)
+# Compatible with InfinityFree (No 'Options' directive allowed)
+# ========================================================
+
+DirectoryIndex index.php index.html
+AddDefaultCharset UTF-8
+
+# Media MIME types
+AddType video/mp4 .mp4 .m4v
+AddType video/webm .webm
+AddType video/ogg .ogv
+AddType image/webp .webp
+AddType image/svg+xml .svg
