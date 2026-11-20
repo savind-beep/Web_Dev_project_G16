@@ -1,22 +1,27 @@
 ﻿================================================================
-MEMBER CONTRIBUTION: 41591 - Chathuranga, SPP
-Main Area: Home Page & Article Listings
+MEMBER CONTRIBUTION: 41907 - Kasthuri, MWBS
+Main Area: HTML Structure & Layout
 ================================================================
 
 What was done:
-- Built the full index.php home page:
-  * Trending articles section (top 3 most viewed)
-  * Article cards grid layout
-  * Search bar functionality (searches article titles)
-  * Category filter (events, academic, clubs, uni life, sports, general)
-  * Pagination (6 articles per page with prev/next)
-  * Sidebar with category list and trending mini list
-  * Mindscape wall preview section on homepage
-- Wrote the SQL queries for fetching and filtering articles
-- Implemented the search + category filter combination logic
-- Handled pagination logic (LIMIT and OFFSET)
-- Designed the article card layout (image, title, category badge, date, author)
-- Ensured only 'approved' articles show on public pages
+- Built includes/header.php:
+  * HTML doctype and meta tags
+  * Bootstrap 5 CSS CDN link
+  * Bootstrap Icons CDN link
+  * Custom stylesheet link
+  * Dynamic page title setup
+- Built includes/footer.php:
+  * Footer HTML layout
+  * Quick links section
+  * Copyright info
+  * Bootstrap JS bundle CDN link (loaded at bottom)
+- Built includes/preloader.php:
+  * Loading spinner animation shown on page load
+- Set up the basic HTML skeleton used across all pages
+- Ensured header and footer are consistently included everywhere
+- Assisted with basic HTML forms for login and register pages
 
 Files in this folder:
-- index.php
+- header.php (and includes/header.php)
+- footer.php (and includes/footer.php)
+- preloader.php (and includes/preloader.php)
