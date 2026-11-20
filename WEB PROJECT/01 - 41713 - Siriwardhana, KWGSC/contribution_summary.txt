@@ -1,0 +1,38 @@
+﻿================================================================
+MEMBER CONTRIBUTION: 41713 - Siriwardhana, KWGSC
+Main Area: Backend Developer
+================================================================
+
+What was done:
+- Wrote db.php (core file included in every page: DB connection, helper functions, session management)
+- Wrote config.php with API keys and settings
+- Built the login system (login.php + login.html):
+  * Password verification using password_verify()
+  * Session creation on successful login
+  * Error handling and redirect
+- Built the registration system (register.php + register.html):
+  * Duplicate email check
+  * Password hashing with password_hash()
+  * New user creation in database
+- Wrote logout.php
+- Built article submission backend in submit_article.php (+ submit_article.html):
+  * File upload handling with move_uploaded_file()
+  * Image URL option alternative
+  * Input validation and SQL insert
+- Built edit_article.php backend:
+  * Permission check (only author or admin can edit)
+  * Student delete own article feature
+- Created and managed database.sql with all table structures:
+  * Designed full database schema and foreign key relationships
+  * Article status system (approved, restricted, rejected)
+
+Files in this folder:
+- db.php
+- config.php
+- config.local.php
+- database.sql
+- login.php / login.html
+- register.php / register.html
+- logout.php
+- submit_article.php / submit_article.html
+- edit_article.php
