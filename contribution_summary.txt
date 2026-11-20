@@ -1,0 +1,22 @@
+﻿================================================================
+MEMBER CONTRIBUTION: 41591 - Chathuranga, SPP
+Main Area: Home Page & Article Listings
+================================================================
+
+What was done:
+- Built the full index.php home page:
+  * Trending articles section (top 3 most viewed)
+  * Article cards grid layout
+  * Search bar functionality (searches article titles)
+  * Category filter (events, academic, clubs, uni life, sports, general)
+  * Pagination (6 articles per page with prev/next)
+  * Sidebar with category list and trending mini list
+  * Mindscape wall preview section on homepage
+- Wrote the SQL queries for fetching and filtering articles
+- Implemented the search + category filter combination logic
+- Handled pagination logic (LIMIT and OFFSET)
+- Designed the article card layout (image, title, category badge, date, author)
+- Ensured only 'approved' articles show on public pages
+
+Files in this folder:
+- index.php
