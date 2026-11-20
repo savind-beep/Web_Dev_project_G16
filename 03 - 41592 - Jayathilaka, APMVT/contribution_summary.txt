@@ -1,0 +1,20 @@
+﻿================================================================
+MEMBER CONTRIBUTION: 41592 - Jayathilaka, APMVT
+Main Area: Navigation & Page Structure
+================================================================
+
+What was done:
+- Built the navbar (includes/navbar.php):
+  * Desktop horizontal navigation with dropdown menus
+  * Mobile hamburger button with side drawer (offcanvas)
+  * Dynamic links based on user role (guest / student / admin)
+  * Admin badge showing restricted article count
+  * User avatar and name display in top right
+  * Active page highlighting
+- Set up the includes/ folder structure
+- Ensured navbar is reused across all pages properly
+- Connected pages together with correct navigation links
+- Worked on the categories dropdown in navbar
+
+Files in this folder:
+- navbar.php (and includes/navbar.php)
